@@ -4,7 +4,8 @@
 * XAMPP installed and running  
 * Running Apache and MySQL  
 * Change Apache config httpd.conf line 252 & 253 to directory of where the project is.  
-Ex) DocumentRoot "C:\Users\jaych\OneDrive\Desktop"  
+Example:
+    DocumentRoot "C:\Users\jaych\OneDrive\Desktop"  
     <Directory "C:\Users\jaych\OneDrive\Desktop">  
 
 ## To create database on your local machine
