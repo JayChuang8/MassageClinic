@@ -18,7 +18,7 @@ Example:
     ```
     
 ## To run website on your computer
-Type into any web browser 'http://localhost/massageClinic/frontend/home.php' and enter  
+Type into any web browser (Chrome works best) 'http://localhost/massageClinic/frontend/home.php' and enter  
 
 ## To try Postman on the database
 * Import the 'API Requests.postman_collection.json' into Postman  
