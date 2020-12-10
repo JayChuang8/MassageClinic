@@ -12,8 +12,10 @@ To create database on your local machine:
 2) Run massage_clinic.sql in an SQL query.
 
 Go to massageClinic/config/Database.php and change lines 6-7
+    ```
     private $username = 'your database local connection username';
     private $password = 'your password';
+    ```
     
 To run website on your computer:
 *type into any web browser 'http://localhost/massageClinic/frontend/home.php' and enter
