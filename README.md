@@ -22,4 +22,8 @@ Type into any web browser (Chrome works best) 'http://localhost/massageClinic/fr
 
 ## To try Postman on the database
 * Import the 'API Requests.postman_collection.json' into Postman  
-* All the commands are preloaded with inputs already for testing  
+* All the commands are preloaded with inputs already for testing 
+
+## Project details
+This project was created by Jay Chuang, Duan Le, and Hunter Coles for a database project for CPSC 471 Database Management Systems.  
+Used Postman to test database insert, update, view, delete functions, and stored procedures were used in the database.
