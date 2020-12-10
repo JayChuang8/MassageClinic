@@ -10,8 +10,7 @@ Ex) DocumentRoot "C:\Users\jaych\OneDrive\Desktop"
 ## To create database on your local machine
 1) Create a schema called 'massage_clinic'   
 2) Run massage_clinic.sql in an SQL query.  
-
-Go to massageClinic/config/Database.php and change lines 6-7  
+3) Go to massageClinic/config/Database.php and change lines 6-7  
     ```
     private $username = 'your database local connection username';  
     private $password = 'your password';  
