@@ -1,6 +1,6 @@
 # MassageClinic API
 
-System Requirements:
+## System Requirements
 *XAMPP installed and running
 *Running Apache and MySQL
 *Change Apache config httpd.conf line 252 & 253 to directory of where the project is.
