@@ -111,7 +111,7 @@ $articles = $result->fetchAll(\PDO::FETCH_ASSOC);
                     <input type="checkbox" name="screen[]" value="test" id="test_covid">
                     <label for="test_covid">I am NOT currently awaiting the results for a COVID test</label><br>
                     <input type="checkbox" name="screen[]" value="familytest" id="familytest_covid">
-                    <label for="familytest_covid">My family/roommates are NOT currently awaiting the results for a COVID test</label><br>
+                    <label for="familytest_covid">My family / roommates are NOT currently awaiting the results for a COVID test</label><br>
                   </fieldset>
                 </div>
                 <div>
