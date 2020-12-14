@@ -22,8 +22,11 @@
   if($stmt->rowCount() > 0) {
     $_SESSION['user_id'] = $user_id;
     $_SESSION['user_type'] = 'client';
+    $_SESSION['login'] = 1;
     echo json_encode(array('message' => 'Client Login Successful'));
   } else {
+    $_SESSION['login'] = 0;
     http_response_code(401);
     echo json_encode(array('message' => 'Login Failed'));
   }
+?>
