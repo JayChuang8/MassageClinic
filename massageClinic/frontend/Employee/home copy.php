@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="navbar-collapse-menu">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="viewAppointment.php">Appointments</a>
+            <a class="nav-link" href="bookAppointment.php">Appointments</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="shop.php">Shop</a>
@@ -40,6 +40,9 @@
           <li class="nav-item">
             <a class="nav-link" href="../logout.php">Logout</a>
           </li>
+          <li class="nav-item">
+            <a>Welcome, Employee</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -49,7 +52,6 @@
     <div class="container-fluid no-padding">
       <div class="row">
         <div class="mx-auto d-block">
-        <h2>Welcome, Employee</h2>
           <img src="../assets/lake.jpg" alt="placeholder 960" class="img-responsive" />
         </div>
       </div>

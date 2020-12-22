@@ -23,17 +23,13 @@
     if ($user_id == 0)
     {
       $_SESSION['user_type'] = 'admin';
-      $_SESSION['login'] = 1;
       echo json_encode(array('message' => 'Admin Login Successful'));
     } else {
       $_SESSION['user_type'] = 'employee';
-      $_SESSION['login'] = 1;
       echo json_encode(array('message' => 'Employee Login Successful'));
     }
     $_SESSION['user_id'] = $user_id;    
   } else {
-    $_SESSION['login'] = 0;
     http_response_code(401);
     echo json_encode(array('message' => 'Login Failed'));
   }
-?>
