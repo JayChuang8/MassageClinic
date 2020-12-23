@@ -97,7 +97,6 @@ $articles = $result->fetchAll(\PDO::FETCH_ASSOC);
                 <label for="green">Green Tea</label><br>
               </fieldset>
               <br />
-              <br />
 
               <button onClick="window.location.reload();">Buy</button>
             </form>
